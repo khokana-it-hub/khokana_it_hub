@@ -1,769 +1,1318 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Software Development Agency- KIH</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Favicons -->
+  <link href="assets/img/kih_logo_only.png" rel="icon" />
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-    <title>Khokana IT Hub - Khokana</title>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-scholar.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
-<!--
-
-
-
-
-
--->
-  </head>
-
-<body>
-
-  <!-- ***** Preloader Start ***** -->
-  <div id="js-preloader" class="js-preloader">
-    <div class="preloader-inner">
-      <span class="dot"></span>
-      <div class="dots">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
-  </div>
-  <!-- ***** Preloader End ***** -->
-
-  <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <nav class="main-nav">
-                    <!-- ***** Logo Start ***** -->
-                    <a href="index.html" class="logo">
-                      <h1><img src="assets/images/khokana_.png" alt="WordPress" style="width: 100px; height: 50px;"></h1>
-                  </a>
-
-                    <!-- ***** Logo End ***** -->
-                    <!-- ***** Serach Start ***** -->
-                    <div class="search-input">
-                      <form id="search" action="#">
-                        <input type="text" placeholder="Type Something" id='searchText' name="searchKeyword" onkeypress="handle" />
-                        <i class="fa fa-search"></i>
-                      </form>
-                    </div>
-                    <!-- ***** Serach Start ***** -->
-                    <!-- ***** Menu Start ***** -->
-                    <ul class="nav">
-                      <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                      <li class="scroll-to-section"><a href="#services">Services</a></li>
-                      <li class="scroll-to-section"><a href="#courses">Courses</a></li>
-                      <!-- <li class="scroll-to-section"><a href="#team">Team</a></li> -->
-                      <li class="scroll-to-section"><a href="#events">Events</a></li>
-                      <li class="scroll-to-section"><a href="#contact">Register Now!</a></li>
-                  </ul>   
-                    <a class='menu-trigger'>
-                        <span>Menu</span>
-                    </a>
-                    <!-- ***** Menu End ***** -->
-                </nav>
-            </div>
-        </div>
-    </div>
-  </header>
-  <!-- ***** Header Area End ***** -->
-
-  <div class="main-banner" id="top">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="owl-carousel owl-banner">
-            <div class="item item-1">
-              <div class="header-text">
-                <span class="category">Web & App Development</span>
-                <h2>Empowering Your Digital Presence</h2>
-                <p>We specialize in creating cutting-edge websites and applications tailored to your business needs. Transform your ideas into robust digital solutions.</p>
-                <div class="buttons">
-                  <div class="main-button">
-                    <a href="#">Request a Quote</a>
-                  </div>
-                  <div class="icon-button">
-                    <a href="#"><i class="fa fa-play"></i> About Our Services</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item item-2">
-              <div class="header-text">
-                <span class="category">Digital Marketing</span>
-                <h2>Drive Your Business Growth</h2>
-                <p>Our digital marketing strategies enhance your online presence, attract more leads, and maximize your ROI. Let us amplify your brand's visibility.</p>
-                <div class="buttons">
-                  <div class="main-button">
-                    <a href="#">Request a Consultation</a>
-                  </div>
-                  <div class="icon-button">
-                    <a href="#"><i class="fa fa-play"></i> Explore Our Approach</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item item-3">
-              <div class="header-text">
-                <span class="category">Training & UI/UX Design</span>
-                <h2>Elevate Skills, Enhance User Experience</h2>
-                <p>Invest in professional training and UI/UX design services to stay ahead. Our courses and design solutions optimize usability and user satisfaction.</p>
-                <div class="buttons">
-                  <div class="main-button">
-                    <a href="#">View Training Programs</a>
-                  </div>
-                  <div class="icon-button">
-                    <a href="#"><i class="fa fa-play"></i> Learn More About UI/UX</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="services section" id="services">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item">
-                    <div class="icon">
-                        <img src="assets/images/service-01.png" alt="web services">
-                    </div>
-                    <div class="main-content">
-                        <h4>Web Services</h4>
-                        <p>At Khokana IT Hub, we offer comprehensive web services to build robust and scalable web solutions tailored to your needs.</p>
-                        <div class="main-button">
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item">
-                    <div class="icon">
-                        <img src="assets/images/service-02.png" alt="mobile app development">
-                    </div>
-                    <div class="main-content">
-                        <h4>Mobile App Development</h4>
-                        <p>Our mobile app development services ensure you get a smooth and user-friendly experience on both Android and iOS platforms.</p>
-                        <div class="main-button">
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item">
-                    <div class="icon">
-                        <img src="assets/images/service-03.png" alt="digital marketing">
-                    </div>
-                    <div class="main-content">
-                        <h4>Digital Marketing and UI/UX</h4>
-                        <p>Boost your online presence with our digital marketing services, including SEO, social media marketing, and more.</p>
-                        <div class="main-button">
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-           
-        </div>
-    </div>
-</div>
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet" />
 
 
-  <!-- <div class="section about-us">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 offset-lg-1">
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Where shall we begin?
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Dolor <strong>almesit amet</strong>, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur <code>adipiscing</code> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  How do we work together?
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Dolor <strong>almesit amet</strong>, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur <code>adipiscing</code> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Why SCHOLAR is the best?
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  There are more than one hundred responsive HTML templates to choose from <strong>Template</strong>Mo website. You can browse by different tags or categories.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  Do we get the best support?
-                </button>
-              </h2>
-              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  You can also search on Google with specific keywords such as <code>templatemo business templates, templatemo gallery templates, admin dashboard templatemo, 3-column templatemo, etc.</code>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-5 align-self-center">
-          <div class="section-heading">
-            <h6>About Us</h6>
-            <h2>What make us the best academy online?</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravid risus commodo.</p>
-            <div class="main-button">
-              <a href="#">Discover More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <div class="section about-us">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 offset-lg-1">
-                <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Where shall we begin?
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                At Khokana IT Hub, we start by understanding your business needs and goals. Our team conducts thorough research to ensure we deliver solutions that align with your vision and objectives.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                How do we work together?
-                            </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                Collaboration is key to our success. We work closely with our clients through every step of the process, from planning and design to development and deployment, ensuring transparency and mutual understanding.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Why Khokana IT Hub?
-                            </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                Khokana IT Hub stands out due to our commitment to quality, innovation, and customer satisfaction. Our team of experts is dedicated to delivering top-notch solutions that drive business success.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingFour">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                Do we get the best support?
-                            </button>
-                        </h2>
-                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                Absolutely! Khokana IT Hub prides itself on providing exceptional customer support. Our team is available to assist you with any questions or issues you may encounter, ensuring a smooth and successful project experience.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-5 align-self-center">
-                <div class="section-heading">
-                    <h6>About Us</h6>
-                    <h2>What makes us the best choice for your IT needs?</h2>
-                    <p>At Khokana IT Hub, we are dedicated to delivering cutting-edge technology solutions that empower businesses to achieve their goals. Our team of experts specializes in web services, mobile app development, digital marketing, and UI/UX design.</p>
-                    <div class="main-button">
-                        <a href="#">Discover More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+</head>
 
-<section class="section courses" id="courses">
-  <div class="container">
-      <div class="row">
-          <div class="col-lg-12 text-center">
-              <div class="section-heading">
-                  <h6>Our Expertise</h6>
-                  <h2>Latest Services</h2>
-              </div>
-          </div>
-      </div>
-      <ul class="event_filter">
-          <li>
-              <a class="is_active" href="#!" data-filter="*">Show All</a>
-          </li>
-          <li>
-              <a href="#!" data-filter=".wordpress">WordPress</a>
-          </li>
-          <li>
-              <a href="#!" data-filter=".python">Python</a>
-          </li>
-          <li>
-              <a href="#!" data-filter=".flutter">Flutter</a>
-          </li>
-          <li>
-              <a href="#!" data-filter=".figma">Figma</a>
-          </li>
-          <li>
-              <a href="#!" data-filter=".react">React</a>
-          </li>
+<body class="index-page">
+ <header id="header" class="header d-flex align-items-center fixed-top">
+  <!-- Logo just outside the container -->
+ 
+
+  <!-- Main Header Container -->
+  <div class="header-container container-xl d-flex align-items-center justify-content-between">
+    <!-- <a href="index.html" class="logo d-flex align-items-center ">
+      <h1 class="sitename mb-0">खोकना IT हब</h1>
+    </a> -->
+     <a href="index.html" class="logo d-flex align-items-center">
+    <img src="assets/img/kih_logo.png" alt="Khokana IT Hub Logo"  />
+
+    </a>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
-      <div class="row event_box">
-          <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 wordpress">
-              <div class="events_item">
-                  <div class="thumb">
-                      <a href="#"><img src="assets/images/service-wordpress.jpg" alt="WordPress"></a>
-                      <span class="category">WordPress</span>
-                  </div>
-                  <div class="down-content">
-                      <span class="author">John Doe</span>
-                      <h4>Expert WordPress Solutions</h4>
-                      <p>We provide custom WordPress development and maintenance services to enhance your online presence.</p>
-                      <div class="main-button">
-                          <a href="#">Read More</a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 python">
-              <div class="events_item">
-                  <div class="thumb">
-                      <a href="#"><img src="assets/images/service-python.jpg" alt="Python"></a>
-                      <span class="category">Python</span>
-                  </div>
-                  <div class="down-content">
-                      <span class="author">Jane Smith</span>
-                      <h4>Advanced Python Development</h4>
-                      <p>Our team excels in Python development, delivering robust and scalable solutions for various applications.</p>
-                      <div class="main-button">
-                          <a href="#">Read More</a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 flutter">
-              <div class="events_item">
-                  <div class="thumb">
-                      <a href="#"><img src="assets/images/service_flutter.jpg" alt="Flutter"></a>
-                      <span class="category">Flutter</span>
-                  </div>
-                  <div class="down-content">
-                      <span class="author">Michael Lee</span>
-                      <h4>Cross-Platform Flutter Apps</h4>
-                      <p>We create high-performance, cross-platform mobile applications using Flutter, ensuring a seamless user experience.</p>
-                      <div class="main-button">
-                          <a href="#">Read More</a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 figma">
-              <div class="events_item">
-                  <div class="thumb">
-                      <a href="#"><img src="assets/images/service_figma.jpg" alt="Figma"></a>
-                      <span class="category">Figma</span>
-                  </div>
-                  <div class="down-content">
-                      <span class="author">Sophia Rose</span>
-                      <h4>Innovative UI/UX Design with Figma</h4>
-                      <p>Our Figma experts design user-friendly and visually appealing interfaces to enhance user engagement.</p>
-                      <div class="main-button">
-                          <a href="#">Read More</a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 react">
-              <div class="events_item">
-                  <div class="thumb">
-                      <a href="#"><img src="assets/images/service-react.png" alt="React"></a>
-                      <span class="category">React</span>
-                  </div>
-                  <div class="down-content">
-                      <span class="author">David Hutson</span>
-                      <h4>Dynamic Web Applications with React</h4>
-                      <p>We build interactive and dynamic web applications using React, providing a seamless user experience.</p>
-                      <div class="main-button">
-                          <a href="#">Read More</a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
+      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+    </nav>
+
+    <a class="btn-getstarted" href="index.html#about">Get Started</a>
   </div>
-</section>
+</header>
 
-
-<div class="section fun-facts">
-  <div class="container">
-      <div class="row">
-          <div class="col-lg-12">
-              <div class="wrapper">
-                  <div class="row">
-                      <div class="col-lg-3 col-md-6">
-                          <div class="counter">
-                              <h2 class="timer count-title count-number" data-to="10" data-speed="1000"></h2>
-                              <p class="count-text">Happy Clients</p>
-                          </div>
-                      </div>
-                      <div class="col-lg-3 col-md-6">
-                          <div class="counter">
-                              <h2 class="timer count-title count-number" data-to="100" data-speed="1000"></h2>
-                              <p class="count-text">Experience Working Hours</p>
-                          </div>
-                      </div>
-                      <div class="col-lg-3 col-md-6">
-                          <div class="counter">
-                              <h2 class="timer count-title count-number" data-to="20" data-speed="1000"></h2>
-                              <p class="count-text">Employees</p>
-                          </div>
-                      </div>
-                      <div class="col-lg-3 col-md-6">
-                          <div class="counter end">
-                              <h2 class="timer count-title count-number" data-to="2" data-speed="1000"></h2>
-                              <p class="count-text">Years of Experience</p>
-                          </div>
-                      </div>
-                  </div>
+  <main class="main">
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
+              <div class="company-badge mb-4">
+                <i class="bi bi-gear-fill me-2"></i>
+                Working for your success
               </div>
-          </div>
-      </div>
-  </div>
-</div>
+              <h1 class="mb-4">
+                Empowering Ideas <br />
+                Through Code & Innovation <br />
+              </h1>
 
+              <p class="mb-4 mb-md-5">
+                We build smart, scalable software solutions tailored to your
+                business goals. From concept to launch, our team delivers
+                cutting-edge technology with precision, creativity, and care.
+              </p>
 
-  <!-- <div class="team section" id="team">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-6">
-          <div class="team-member">
-            <div class="main-content">
-              <img src="assets/images/member-01.jpg" alt="">
-              <span class="category">UX Teacher</span>
-              <h4>Sophia Rose</h4>
-              <ul class="social-icons">
-                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="team-member">
-            <div class="main-content">
-              <img src="assets/images/member-02.jpg" alt="">
-              <span class="category">Graphic Teacher</span>
-              <h4>Cindy Walker</h4>
-              <ul class="social-icons">
-                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="team-member">
-            <div class="main-content">
-              <img src="assets/images/member-03.jpg" alt="">
-              <span class="category">Full Stack Master</span>
-              <h4>David Hutson</h4>
-              <ul class="social-icons">
-                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="team-member">
-            <div class="main-content">
-              <img src="assets/images/member-04.jpg" alt="">
-              <span class="category">Digital Animator</span>
-              <h4>Stella Blair</h4>
-              <ul class="social-icons">
-                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>  -->
-  <div class="section testimonials">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-7">
-                <div class="owl-carousel owl-testimonials">
-                    <div class="item">
-                        <p>“Khokana IT Hub has been instrumental in transforming our digital presence. Their expertise in various technologies like WordPress, Python, and Flutter has significantly boosted our capabilities.”</p>
-                        <div class="author">
-                            <img src="assets/images/isha.png" alt="">
-                            <span class="category">Web Development Manager</span>
-                            <h4>Rohan Shrestha</h4>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <p>“The team at Khokana IT Hub delivers exceptional results. Their proficiency in React and Figma has allowed us to create innovative solutions that exceed our expectations.”</p>
-                        <div class="author">
-                            <img src="assets/images/isha.png" alt="">
-                            <span class="category">UI/UX Lead</span>
-                            <h4>Rojina Tamanag</h4>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <p>“Choosing Khokana IT Hub was one of our best decisions. Their deep understanding of digital marketing and their skilled team in UI design have been invaluable to our success.”</p>
-                        <div class="author">
-                            <img src="assets/images/isha.png" alt="">
-                            <span class="category">Marketing Director</span>
-                            <h4>Suman Karki</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-5 align-self-center">
-                <div class="section-heading">
-                    <h6>TESTIMONIALS</h6>
-                    <h2>What Our Clients Say</h2>
-                    <p>Khokana IT Hub provides top-notch services in WordPress, Python, Flutter, Figma, React, and digital marketing. Explore our testimonials to learn more about our client satisfaction.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-  <div class="section events" id="events">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <div class="section-heading">
-            <h6>Schedule</h6>
-            <h2>Upcoming Events</h2>
-          </div>
-        </div>
-        <div class="col-lg-12 col-md-6">
-          <div class="item">
-            <div class="row">
-              <div class="col-lg-3">
-                <div class="image">
-                  <img src="assets/images/event-01.jpg" alt="">
-                </div>
+              <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary me-0 me-sm-2 mx-1">Get Started</a>
+                <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="btn btn-link mt-2 mt-sm-0 glightbox">
+                  <i class="bi bi-play-circle me-1"></i>
+                  Play Video
+                </a>
               </div>
-              <div class="col-lg-9">
-                <ul>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="hero-image" data-aos="zoom-out" data-aos-delay="300">
+              <img src="assets/img/illustration-1.webp" alt="Hero Image" class="img-fluid" />
+
+              <div class="customers-badge">
+                <div class="customer-avatars">
+                  <img src="assets/img/avatar-1.webp" alt="Customer 1" class="avatar" />
+                  <img src="assets/img/avatar-2.webp" alt="Customer 2" class="avatar" />
+                  <img src="assets/img/avatar-3.webp" alt="Customer 3" class="avatar" />
+                  <img src="assets/img/avatar-4.webp" alt="Customer 4" class="avatar" />
+                  <img src="assets/img/avatar-5.webp" alt="Customer 5" class="avatar" />
+                  <span class="avatar more">12+</span>
+                </div>
+                <p class="mb-0 mt-2">
+                  Trusted by 20+ clients for reliable, modern software
+                  solutions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row stats-row gy-4 mt-5" data-aos="fade-up" data-aos-delay="500">
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-item">
+              <div class="stat-icon">
+                <i class="bi bi-trophy"></i>
+              </div>
+              <div class="stat-content">
+                <h4>3x Industry Awards</h4>
+                <p class="mb-0">Recognized for innovation and excellence</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-item">
+              <div class="stat-icon">
+                <i class="bi bi-briefcase"></i>
+              </div>
+              <div class="stat-content">
+                <h4>250+ Projects Delivered</h4>
+                <p class="mb-0">Successful solutions for diverse clients</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-item">
+              <div class="stat-icon">
+                <i class="bi bi-graph-up"></i>
+              </div>
+              <div class="stat-content">
+                <h4>99% Client Satisfaction</h4>
+                <p class="mb-0">Consistently exceeding expectations</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-item">
+              <div class="stat-icon">
+                <i class="bi bi-award"></i>
+              </div>
+              <div class="stat-content">
+                <h4>6x Best Workplace</h4>
+                <p class="mb-0">Awarded for outstanding team culture</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 align-items-center justify-content-between">
+          <div class="col-xl-5" data-aos="fade-up" data-aos-delay="200">
+            <span class="about-meta">MORE ABOUT US</span>
+            <h2 class="about-title">Driving Innovation Through Software Development</h2>
+            <p class="about-description">
+              Established in 2023, <strong>Khokana IT Hub</strong> is dedicated to solving unemployment through
+              innovative IT solutions. Our primary focus is software and app development for clients across various
+              industries. We also run training programs to upskill youth and integrate them into real-world IT projects,
+              creating both job creators and skilled professionals.
+            </p>
+
+            <div class="row feature-list-wrapper">
+              <div class="col-md-6">
+                <ul class="feature-list">
                   <li>
-                    <span class="category">Web Design</span>
-                    <h4>UI Best Practices</h4>
+                    <i class="bi bi-check-circle-fill"></i> Custom software development
                   </li>
                   <li>
-                    <span>Date:</span>
-                    <h6>16 Feb 2036</h6>
+                    <i class="bi bi-check-circle-fill"></i> Mobile & web app solutions
                   </li>
                   <li>
-                    <span>Duration:</span>
-                    <h6>22 Hours</h6>
-                  </li>
-                  <li>
-                    <span>Price:</span>
-                    <h6>$120</h6>
+                    <i class="bi bi-check-circle-fill"></i> Scalable business tech
                   </li>
                 </ul>
-                <a href="#"><i class="fa fa-angle-right"></i></a>
+              </div>
+              <div class="col-md-6">
+                <ul class="feature-list">
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i> Youth IT engagement
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i> Practical tech training
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i> Career-focused mentorship
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="info-wrapper">
+              <div class="row gy-4">
+
+                <div class="col-lg-7">
+                  <div class="contact-info d-flex align-items-center gap-2">
+                    <i class="bi bi-telephone-fill"></i>
+                    <div>
+                      <p class="contact-label">Call us anytime</p>
+                      <p class="contact-number">+977 9867811182</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-12 col-md-6">
-          <div class="item">
-            <div class="row">
-              <div class="col-lg-3">
-                <div class="image">
-                  <img src="assets/images/event-02.jpg" alt="">
-                </div>
+
+          <div class="col-xl-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="image-wrapper">
+              <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
+                <img src="assets/img/about-5.webp" alt="Khokana IT Hub - Development Team"
+                  class="img-fluid main-image rounded-4" />
+                <img src="assets/img/about-2.webp" alt="App Development Discussion"
+                  class="img-fluid small-image rounded-4" />
               </div>
-              <div class="col-lg-9">
-                <ul>
-                  <li>
-                    <span class="category">Front End</span>
-                    <h4>New Design Trend</h4>
-                  </li>
-                  <li>
-                    <span>Date:</span>
-                    <h6>24 Feb 2036</h6>
-                  </li>
-                  <li>
-                    <span>Duration:</span>
-                    <h6>30 Hours</h6>
-                  </li>
-                  <li>
-                    <span>Price:</span>
-                    <h6>$320</h6>
-                  </li>
-                </ul>
-                <a href="#"><i class="fa fa-angle-right"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-12 col-md-6">
-          <div class="item">
-            <div class="row">
-              <div class="col-lg-3">
-                <div class="image">
-                  <img src="assets/images/event-03.jpg" alt="">
-                </div>
-              </div>
-              <div class="col-lg-9">
-                <ul>
-                  <li>
-                    <span class="category">Full Stack</span>
-                    <h4>Web Programming</h4>
-                  </li>
-                  <li>
-                    <span>Date:</span>
-                    <h6>12 Mar 2036</h6>
-                  </li>
-                  <li>
-                    <span>Duration:</span>
-                    <h6>48 Hours</h6>
-                  </li>
-                  <li>
-                    <span>Price:</span>
-                    <h6>$440</h6>
-                  </li>
-                </ul>
-                <a href="#"><i class="fa fa-angle-right"></i></a>
+              <div class="experience-badge floating">
+                <h3>Since <span>2023</span></h3>
+                <p>Building digital solutions for a better future</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
+    </section>
 
-  <div class="contact-us section" id="contact">
-    <div class="container">
+    <!-- /About Section -->
+
+    <section id="features" class="features section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>What We Offer</h2>
+        <p>
+          Khokana IT Hub specializes in software and app development, while also empowering youth through impactful IT
+          training and mentorship.
+        </p>
+      </div>
+      <!-- End Section Title -->
+
+      <div class="container">
+        <div class="d-flex justify-content-center">
+          <ul class="nav nav-tabs" data-aos="fade-up" data-aos-delay="100">
+            <li class="nav-item">
+              <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
+                <h4>App & Software Development</h4>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
+                <h4>Youth Empowerment</h4>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
+                <h4>Client-Centric Approach</h4>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+          <!-- Tab 1 -->
+          <div class="tab-pane fade active show" id="features-tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Modern, Scalable Digital Solutions</h3>
+                <p class="fst-italic">
+                  We develop robust applications tailored for startups, enterprises, and communities, combining UI/UX
+                  excellence with powerful backend functionality.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> Full-stack app & software development</li>
+                  <li><i class="bi bi-check2-all"></i> Web, mobile & cloud-based platforms</li>
+                  <li><i class="bi bi-check2-all"></i> Agile, scalable, and secure tech stacks</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-illustration-1.webp" alt="Software Development" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="features-tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Training & Mentorship</h3>
+                <p class="fst-italic">
+                  We believe in uplifting the next generation of developers through guided learning, real-time projects,
+                  and community collaboration.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> Project-based IT training programs</li>
+                  <li><i class="bi bi-check2-all"></i> One-on-one mentorship & career guidance</li>
+                  <li><i class="bi bi-check2-all"></i> Inclusive learning for aspiring youth</li>
+                  <li><i class="bi bi-check2-all"></i> Industry exposure through live projects</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-illustration-2.webp" alt="Training Youth" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+
+          <!-- End tab content item -->
+
+          <div class="tab-pane fade" id="features-tab-3">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Results-Focused Partnerships</h3>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> Transparent client communication</li>
+                  <li><i class="bi bi-check2-all"></i> Custom strategies based on business needs</li>
+                  <li><i class="bi bi-check2-all"></i> Post-deployment support and upgrades</li>
+                </ul>
+                <p class="fst-italic">
+                  We’re not just service providers—we are long-term tech partners, ensuring your digital vision becomes
+                  a reality.
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-illustration-3.webp" alt="Client Focus" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+          <!-- End tab content item -->
+        </div>
+      </div>
+    </section>
+    <!-- /Features Section -->
+
+    <!-- Features Cards Section -->
+    <section id="features-cards" class="features-cards section">
+      <div class="container">
+        <div class="row gy-4">
+          <!-- Phase 1: Planning & Analysis -->
+          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="feature-box orange">
+              <i class="bi bi-journal-text"></i>
+              <h4>Planning & Analysis</h4>
+              <p>
+                We identify client goals, gather requirements, and analyze feasibility to set a strong foundation for
+                the project.
+              </p>
+            </div>
+          </div>
+
+          <!-- Phase 2: Design & Prototyping -->
+          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="feature-box blue">
+              <i class="bi bi-easel2-fill"></i>
+              <h4>Design & Prototyping</h4>
+              <p>
+                Creating intuitive UI/UX designs, architecture layouts, and wireframes to visualize how the software
+                will function.
+              </p>
+            </div>
+          </div>
+
+          <!-- Phase 3: Development & Testing -->
+          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="feature-box green">
+              <i class="bi bi-laptop"></i>
+              <h4>Development & Testing</h4>
+              <p>
+                Writing clean code and rigorously testing to ensure performance, functionality, and security across all
+                modules.
+              </p>
+            </div>
+          </div>
+
+          <!-- Phase 4: Deployment & Maintenance -->
+          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="feature-box red">
+              <i class="bi bi-cloud-check-fill"></i>
+              <h4>Deployment & Maintenance</h4>
+              <p>
+                Launching the final product, monitoring performance, and offering ongoing support and upgrades as
+                needed.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Features Cards Section -->
+
+    <!-- Features 2 Section -->
+    <section id="features-2" class="features-2 section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-center">
+
+          <!-- Left Features -->
+          <div class="col-lg-4">
+            <div class="feature-item text-end mb-5" data-aos="fade-right" data-aos-delay="200">
+              <div class="d-flex align-items-center justify-content-end gap-4">
+                <div class="feature-content">
+                  <h3>Multi-Device Compatibility</h3>
+                  <p>
+                    Our apps run seamlessly across desktops, tablets, and smartphones—giving users the freedom to work
+                    or access tools on any device.
+                  </p>
+                </div>
+                <div class="feature-icon flex-shrink-0">
+                  <i class="bi bi-display"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature-item text-end mb-5" data-aos="fade-right" data-aos-delay="300">
+              <div class="d-flex align-items-center justify-content-end gap-4">
+                <div class="feature-content">
+                  <h3>Clean & Lightweight UI</h3>
+                  <p>
+                    Designed with performance and aesthetics in mind, our interfaces remain sleek and user-friendly
+                    without compromising on power.
+                  </p>
+                </div>
+                <div class="feature-icon flex-shrink-0">
+                  <i class="bi bi-feather"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature-item text-end" data-aos="fade-right" data-aos-delay="400">
+              <div class="d-flex align-items-center justify-content-end gap-4">
+                <div class="feature-content">
+                  <h3>High-Resolution Support</h3>
+                  <p>
+                    All our designs are retina-ready and visually sharp on modern displays, ensuring a polished look on
+                    every screen.
+                  </p>
+                </div>
+                <div class="feature-icon flex-shrink-0">
+                  <i class="bi bi-eye"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Center Image -->
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="phone-mockup text-center">
+              <img src="assets/img/phone-app-screen.webp" alt="App Showcase" class="img-fluid" />
+            </div>
+          </div>
+
+          <!-- Right Features -->
+          <div class="col-lg-4">
+            <div class="feature-item mb-5" data-aos="fade-left" data-aos-delay="200">
+              <div class="d-flex align-items-center gap-4">
+                <div class="feature-icon flex-shrink-0">
+                  <i class="bi bi-code-square"></i>
+                </div>
+                <div class="feature-content">
+                  <h3>Standard-Compliant Code</h3>
+                  <p>
+                    We adhere to W3C standards and best practices, ensuring our code is clean, maintainable, and
+                    scalable.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature-item mb-5" data-aos="fade-left" data-aos-delay="300">
+              <div class="d-flex align-items-center gap-4">
+                <div class="feature-icon flex-shrink-0">
+                  <i class="bi bi-phone"></i>
+                </div>
+                <div class="feature-content">
+                  <h3>Fully Responsive Design</h3>
+                  <p>
+                    Our software adapts to any screen size, offering an optimal user experience from mobile devices to
+                    large displays.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature-item" data-aos="fade-left" data-aos-delay="400">
+              <div class="d-flex align-items-center gap-4">
+                <div class="feature-icon flex-shrink-0">
+                  <i class="bi bi-browser-chrome"></i>
+                </div>
+                <div class="feature-content">
+                  <h3>Cross-Browser Compatibility</h3>
+                  <p>
+                    We test across all modern browsers to ensure users enjoy the same high-quality experience on Chrome,
+                    Firefox, Safari, and more.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- /Features 2 Section -->
+
+    <!-- /Features 2 Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row content justify-content-center align-items-center position-relative">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="display-4 mb-4">
+              Empowering Youth Through IT Innovation
+            </h2>
+            <p class="mb-4">
+              Join Khokana IT Hub's mission to reduce unemployment by building powerful software solutions and
+              nurturing next-generation tech talent.
+            </p>
+            <a href="#contact" class="btn btn-cta">Get in Touch</a>
+          </div>
+
+          <!-- Abstract Background Elements -->
+          <div class="shape shape-1">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M47.1,-57.1C59.9,-45.6,68.5,-28.9,71.4,-10.9C74.2,7.1,71.3,26.3,61.5,41.1C51.7,55.9,35,66.2,16.9,69.2C-1.3,72.2,-21,67.8,-36.9,57.9C-52.8,48,-64.9,32.6,-69.1,15.1C-73.3,-2.4,-69.5,-22,-59.4,-37.1C-49.3,-52.2,-32.8,-62.9,-15.7,-64.9C1.5,-67,34.3,-68.5,47.1,-57.1Z"
+                transform="translate(100 100)"></path>
+            </svg>
+          </div>
+
+          <div class="shape shape-2">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M41.3,-49.1C54.4,-39.3,66.6,-27.2,71.1,-12.1C75.6,3,72.4,20.9,63.3,34.4C54.2,47.9,39.2,56.9,23.2,62.3C7.1,67.7,-10,69.4,-24.8,64.1C-39.7,58.8,-52.3,46.5,-60.1,31.5C-67.9,16.4,-70.9,-1.4,-66.3,-16.6C-61.8,-31.8,-49.7,-44.3,-36.3,-54C-22.9,-63.7,-8.2,-70.6,3.6,-75.1C15.4,-79.6,28.2,-58.9,41.3,-49.1Z"
+                transform="translate(100 100)"></path>
+            </svg>
+          </div>
+
+          <!-- Dot Patterns -->
+          <div class="dots dots-1">
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+              <pattern id="dot-pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                <circle cx="2" cy="2" r="2" fill="currentColor"></circle>
+              </pattern>
+              <rect width="100" height="100" fill="url(#dot-pattern)"></rect>
+            </svg>
+          </div>
+
+          <div class="dots dots-2">
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+              <pattern id="dot-pattern-2" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                <circle cx="2" cy="2" r="2" fill="currentColor"></circle>
+              </pattern>
+              <rect width="100" height="100" fill="url(#dot-pattern-2)"></rect>
+            </svg>
+          </div>
+
+          <div class="shape shape-3">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M43.3,-57.1C57.4,-46.5,71.1,-32.6,75.3,-16.2C79.5,0.2,74.2,19.1,65.1,35.3C56,51.5,43.1,65,27.4,71.7C11.7,78.4,-6.8,78.3,-23.9,72.4C-41,66.5,-56.7,54.8,-65.4,39.2C-74.1,23.6,-75.8,4,-71.7,-13.2C-67.6,-30.4,-57.7,-45.2,-44.3,-56.1C-30.9,-67,-15.5,-74,0.7,-74.9C16.8,-75.8,33.7,-70.7,43.3,-57.1Z"
+                transform="translate(100 100)"></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Call To Action Section -->
+
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                },
+                "breakpoints": {
+                  "320": {
+                    "slidesPerView": 2,
+                    "spaceBetween": 40
+                  },
+                  "480": {
+                    "slidesPerView": 3,
+                    "spaceBetween": 60
+                  },
+                  "640": {
+                    "slidesPerView": 4,
+                    "spaceBetween": 80
+                  },
+                  "992": {
+                    "slidesPerView": 6,
+                    "spaceBetween": 120
+                  }
+                }
+              }
+            </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide">
+              <img src="assets/img/clients/client-1.png" class="img-fluid" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/clients/client-2.png" class="img-fluid" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/clients/client-3.png" class="img-fluid" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/clients/client-4.png" class="img-fluid" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/clients/client-5.png" class="img-fluid" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/clients/client-6.png" class="img-fluid" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/clients/client-7.png" class="img-fluid" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/clients/client-8.png" class="img-fluid" alt="" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- /Clients Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section light-background">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <p>
+          Here's what our learners, partners, and professionals say about Khokana IT Hub.
+        </p>
+      </div>
+      <!-- End Section Title -->
+
+      <div class="container">
+        <div class="row g-5">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="Ramesh Tamang" />
+              <h3>Ramesh Tamang</h3>
+              <h4>Student, IT Trainee</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>Thanks to Khokana IT Hub, I gained real software skills and landed my first internship. The
+                  instructors were helpful and the environment was motivating!</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="Anita Sharma" />
+              <h3>Anita Sharma</h3>
+              <h4>UI/UX Designer</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>I joined for a design course but got so much more—mentorship, career guidance, and even freelance
+                  clients. Highly recommend for any creative professional!</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="Bikash Bhandari" />
+              <h3>Bikash Bhandari</h3>
+              <h4>Startup Founder</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>We partnered with Khokana IT Hub to build our MVP. Their team was professional, efficient, and
+                  creative—definitely a tech force in eastern Nepal!</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="Sunita Rai" />
+              <h3>Suman Rai</h3>
+              <h4>Freelance Developer</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>After completing the full-stack course here, I started freelancing from home. It’s not just a
+                  training center—it’s a career launcher!</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- /Testimonials Section -->
+
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Clients</p>
+            </div>
+          </div>
+          <!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Projects</p>
+            </div>
+          </div>
+          <!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Hours Of Support</p>
+            </div>
+          </div>
+          <!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Workers</p>
+            </div>
+          </div>
+          <!-- End Stats Item -->
+        </div>
+      </div>
+    </section>
+    <!-- /Stats Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section light-background">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>
+          Explore the professional services offered by Khokana iT Hub — crafted to elevate your business digitally.
+        </p>
+      </div>
+      <!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row g-4">
+          <!-- Website & Web App Development -->
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-card d-flex">
+              <div class="icon flex-shrink-0">
+                <i class="bi bi-laptop"></i>
+              </div>
+              <div>
+                <h3>Website & Web App Development</h3>
+                <p>
+                  We build responsive websites and dynamic web applications tailored to your business goals.
+                </p>
+                <a href="#contact" class="read-more">
+                  Get Started <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cross-Platform Mobile Apps -->
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-card d-flex">
+              <div class="icon flex-shrink-0">
+                <i class="bi bi-phone"></i>
+              </div>
+              <div>
+                <h3>Cross-Platform Mobile App Development</h3>
+                <p>
+                  Build mobile apps that run seamlessly on both Android and iOS with Flutter or React Native.
+                </p>
+                <a href="#contact" class="read-more">
+                  Get Started <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Digital Marketing -->
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-card d-flex">
+              <div class="icon flex-shrink-0">
+                <i class="bi bi-megaphone"></i>
+              </div>
+              <div>
+                <h3>Digital Marketing</h3>
+                <p>
+                  From SEO to social media and paid ads — we help you grow your online presence and reach.
+                </p>
+                <a href="#contact" class="read-more">
+                  Learn More <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Graphic Design -->
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-card d-flex">
+              <div class="icon flex-shrink-0">
+                <i class="bi bi-palette"></i>
+              </div>
+              <div>
+                <h3>Graphics Design</h3>
+                <p>
+                  Creative branding, logos, social media content, and marketing materials that stand out.
+                </p>
+                <a href="#contact" class="read-more">
+                  View Portfolio <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Services Section -->
+
+
+    <!-- Pricing Section 
+      <section id="pricing" class="pricing section light-background">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Pricing</h2>
+          <p>
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+            consectetur velit
+          </p>
+        </div>
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row g-4 justify-content-center">
+            Basic Plan 
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="pricing-card">
+                <h3>Basic Plan</h3>
+                <div class="price">
+                  <span class="currency">$</span>
+                  <span class="amount">9.9</span>
+                  <span class="period">/ month</span>
+                </div>
+                <p class="description">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium totam.
+                </p>
+
+                <h4>Featured Included:</h4>
+                <ul class="features-list">
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i>
+                    Duis aute irure dolor
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i>
+                    Excepteur sint occaecat
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i>
+                    Nemo enim ipsam voluptatem
+                  </li>
+                </ul>
+
+                <a href="#" class="btn btn-primary">
+                  Buy Now
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            Standard Plan 
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="pricing-card popular">
+                <div class="popular-badge">Most Popular</div>
+                <h3>Standard Plan</h3>
+                <div class="price">
+                  <span class="currency">$</span>
+                  <span class="amount">19.9</span>
+                  <span class="period">/ month</span>
+                </div>
+                <p class="description">
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum.
+                </p>
+
+                <h4>Featured Included:</h4>
+                <ul class="features-list">
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i>
+                    Lorem ipsum dolor sit amet
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i>
+                    Consectetur adipiscing elit
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i>
+                    Sed do eiusmod tempor
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i>
+                    Ut labore et dolore magna
+                  </li>
+                </ul>
+
+                <a href="#" class="btn btn-light">
+                  Buy Now
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            Premium Plan 
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="pricing-card">
+                <h3>Premium Plan</h3>
+                <div class="price">
+                  <span class="currency">$</span>
+                  <span class="amount">39.9</span>
+                  <span class="period">/ month</span>
+                </div>
+                <p class="description">
+                  Quis autem vel eum iure reprehenderit qui in ea voluptate
+                  velit esse quam nihil molestiae.
+                </p>
+
+                <h4>Featured Included:</h4>
+                <ul class="features-list">
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i>
+                    Temporibus autem quibusdam
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i>
+                    Saepe eveniet ut et voluptates
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i>
+                    Nam libero tempore soluta
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i>
+                    Cumque nihil impedit quo
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i>
+                    Maxime placeat facere possimus
+                  </li>
+                </ul>
+
+                <a href="#" class="btn btn-primary">
+                  Buy Now
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      /Pricing Section -->
+
+    <!-- Faq Section -->
+    <section class="faq-9 faq section light-background" id="faq">
+      <div class="container">
         <div class="row">
-            <div class="col-lg-6  align-self-center">
-                <div class="section-heading">
-                    <h6>Contact Us</h6>
-                    <h2>Feel free to contact us anytime</h2>
-                    <p>Thank you for considering Khokana IT Hub. We offer premium web services, mobile app development, digital marketing, and UI/UX design. Reach out to us for all your digital needs!</p>
-                    <div class="special-offer">
-                        <span class="offer">off<br><em>50%</em></span>
-                        <h6>Valid: <em>24 July 2024</em></h6>
-                        <h4>Special Offer <em>20%</em> OFF!</h4>
-                        <a href="#"><i class="fa fa-angle-right"></i></a>
+          <div class="col-lg-5" data-aos="fade-up">
+            <h2 class="faq-title">Have a question? Check out the FAQ</h2>
+            <p class="faq-description">
+              Maecenas tempus tellus eget condimentum rhoncus sem quam semper
+              libero sit amet adipiscing sem neque sed ipsum.
+            </p>
+            <div class="faq-arrow d-none d-lg-block" data-aos="fade-up" data-aos-delay="200">
+              <svg class="faq-arrow" width="200" height="211" viewBox="0 0 200 211" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M198.804 194.488C189.279 189.596 179.529 185.52 169.407 182.07L169.384 182.049C169.227 181.994 169.07 181.939 168.912 181.884C166.669 181.139 165.906 184.546 167.669 185.615C174.053 189.473 182.761 191.837 189.146 195.695C156.603 195.912 119.781 196.591 91.266 179.049C62.5221 161.368 48.1094 130.695 56.934 98.891C84.5539 98.7247 112.556 84.0176 129.508 62.667C136.396 53.9724 146.193 35.1448 129.773 30.2717C114.292 25.6624 93.7109 41.8875 83.1971 51.3147C70.1109 63.039 59.63 78.433 54.2039 95.0087C52.1221 94.9842 50.0776 94.8683 48.0703 94.6608C30.1803 92.8027 11.2197 83.6338 5.44902 65.1074C-1.88449 41.5699 14.4994 19.0183 27.9202 1.56641C28.6411 0.625793 27.2862 -0.561638 26.5419 0.358501C13.4588 16.4098 -0.221091 34.5242 0.896608 56.5659C1.8218 74.6941 14.221 87.9401 30.4121 94.2058C37.7076 97.0203 45.3454 98.5003 53.0334 98.8449C47.8679 117.532 49.2961 137.487 60.7729 155.283C87.7615 197.081 139.616 201.147 184.786 201.155L174.332 206.827C172.119 208.033 174.345 211.287 176.537 210.105C182.06 207.125 187.582 204.122 193.084 201.144C193.346 201.147 195.161 199.887 195.423 199.868C197.08 198.548 193.084 201.144 195.528 199.81C196.688 199.192 197.846 198.552 199.006 197.935C200.397 197.167 200.007 195.087 198.804 194.488ZM60.8213 88.0427C67.6894 72.648 78.8538 59.1566 92.1207 49.0388C98.8475 43.9065 106.334 39.2953 114.188 36.1439C117.295 34.8947 120.798 33.6609 124.168 33.635C134.365 33.5511 136.354 42.9911 132.638 51.031C120.47 77.4222 86.8639 93.9837 58.0983 94.9666C58.8971 92.6666 59.783 90.3603 60.8213 88.0427Z"
+                  fill="currentColor"></path>
+              </svg>
+            </div>
+          </div>
+
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="300">
+            <div class="faq-container">
+              <div class="faq-item faq-active">
+                <h3>What services does Khokana IT Hub offer?</h3>
+                <div class="faq-content">
+                  <p>
+                    We offer website development, mobile app development, UI/UX design, IT training, digital marketing,
+                    and tech consultation services for individuals and businesses in Nepal and abroad.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>Do you provide internships or training programs?</h3>
+                <div class="faq-content">
+                  <p>
+                    Yes, we provide both short-term and long-term training and internship programs in web development,
+                    graphic design, digital marketing, and more. You can apply online or visit our office.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>Can you build custom websites or apps for my business?</h3>
+                <div class="faq-content">
+                  <p>
+                    Absolutely. We develop custom websites and mobile applications tailored to your business needs using
+                    technologies like React, Laravel, Flutter, and more.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>How much does a website or app cost?</h3>
+                <div class="faq-content">
+                  <p>
+                    The cost depends on the project's complexity, features, and timeline. Simple websites start at NPR
+                    15,000 and custom apps start from NPR 50,000+. Contact us for a detailed quote.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>How long does it take to complete a project?</h3>
+                <div class="faq-content">
+                  <p>
+                    Basic websites can be completed in 1–2 weeks, while advanced apps or e-commerce platforms may take
+                    1–3 months depending on features and requirements.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <!-- End Faq item-->
+
+
+              <!-- End Faq item-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Faq Section -->
+
+    <!-- Call To Action 2 Section -->
+    <section id="call-to-action-2" class="call-to-action-2 section dark-background">
+      <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+              <h3>Ready to Start Your Project?</h3>
+              <p>
+                Whether you want a custom website, mobile app, or professional training,
+                we’re here to help your ideas come to life. Contact Khokana IT Hub today
+                and let’s build something amazing together!
+              </p>
+              <a class="cta-btn" href="#contact">Get in Touch</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Call To Action 2 Section -->
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section light-background">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact Us</h2>
+        <p>
+          Have questions or want to start a project? Reach out to Khokana IT Hub — we're here to help!
+        </p>
+      </div>
+      <!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row g-4 g-lg-5">
+          <div class="col-lg-5">
+            <div class="info-box" data-aos="fade-up" data-aos-delay="200">
+              <h3>Contact Info</h3>
+              <p>
+                Connect with our team via phone, email, or visit our office for a consultation.
+              </p>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box">
+                  <i class="bi bi-geo-alt"></i>
+                </div>
+                <div class="content">
+                  <h4>Our Location</h4>
+                  <p>Laxi, Khokana</p>
+                  <p>Lalitpur, Nepal 44600</p>
+                </div>
+              </div>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box">
+                  <i class="bi bi-telephone"></i>
+                </div>
+                <div class="content">
+                  <h4>Phone Number</h4>
+                  <p>+977 9867811182</p>
+                  <p>+977 9812345678 (Mobile)</p>
+                </div>
+              </div>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <div class="content">
+                  <h4>Email Address</h4>
+                  <p>khokanaithub@gmail.com</p>
+                  <p>support@khokanaithub.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
+              <h3>Get In Touch</h3>
+              <p>
+                Send us a message with your project details or questions, and we'll respond as soon as possible.
+              </p>
+
+              <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
+                data-aos-delay="200">
+                <div class="row gy-4">
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required />
+                  </div>
+
+                  <div class="col-md-6">
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" required />
+                  </div>
+
+                  <div class="col-12">
+                    <input type="text" class="form-control" name="subject" placeholder="Subject" required />
+                  </div>
+
+                  <div class="col-12">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                  </div>
+
+                  <div class="col-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">
+                      Your message has been sent. Thank you!
                     </div>
+
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                  </div>
                 </div>
+              </form>
             </div>
-            <div class="col-lg-6">
-                <div class="contact-us-content">
-                    <form id="contact-form" action="send_mail.php" method="post">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <fieldset>
-                                    <input type="name" name="name" id="name" placeholder="Your Name..." autocomplete="on" required>
-                                </fieldset>
-                            </div>
-                            <div class="col-lg-12">
-                                <fieldset>
-                                    <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your E-mail..." required="">
-                                </fieldset>
-                            </div>
-                            <div class="col-lg-12">
-                                <fieldset>
-                                    <textarea name="message" id="message" placeholder="Your Message"></textarea>
-                                </fieldset>
-                            </div>
-                            <div class="col-lg-12">
-                                <fieldset>
-                                    <button type="submit" id="form-submit" class="orange-button">Send Message Now</button>
-                                </fieldset>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
+          </div>
         </div>
-    </div>
-</div>
+      </div>
+    </section>
 
-  <footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <p>Copyright © 2023 Khokana IT Hub. All rights reserved. &nbsp;&nbsp;&nbsp; </p>
-            </div>
+    <!-- /Contact Section -->
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">खोकना IT हब</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Laxi,Khokana</p>
+            <p>Lalitpur- 21, Nepal</p>
+            <p class="mt-3">
+              <strong>Phone:</strong> <span>+1 5589 55488 55</span>
+            </p>
+            <p><strong>Email:</strong> <span>info@example.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
         </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Product Management</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Graphic Design</a></li>
+          </ul>
+        </div>
+
+
+      </div>
     </div>
-</footer>
 
+    <div class="container copyright text-center mt-4">
+      <p>
+        © <span>Copyright</span>
+        <strong class="px-1 sitename">Khokana IT Hub</strong>
+        <span>All Rights Reserved</span>
+      </p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">Khokana IT Hub</a>
+      </div>
+    </div>
+  </footer>
 
-  <!-- Scripts -->
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/js/isotope.min.js"></script>
-  <script src="assets/js/owl-carousel.js"></script>
-  <script src="assets/js/counter.js"></script>
-  <script src="assets/js/custom.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
 
-  </body>
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+
 </html>
