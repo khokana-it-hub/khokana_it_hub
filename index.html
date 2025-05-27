@@ -1195,36 +1195,34 @@
                 Send us a message with your project details or questions, and we'll respond as soon as possible.
               </p>
 
-              <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
-                data-aos-delay="200">
-                <div class="row gy-4">
-                  <div class="col-md-6">
-                    <input type="text" name="name" class="form-control" placeholder="Your Name" required />
-                  </div>
+             <form id="gmailRedirectForm" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+  <div class="row gy-4">
+    <div class="col-md-6">
+      <input type="text" id="name" class="form-control" placeholder="Your Name" required />
+    </div>
 
-                  <div class="col-md-6">
-                    <input type="email" class="form-control" name="email" placeholder="Your Email" required />
-                  </div>
+    <div class="col-md-6">
+      <input type="email" id="email" class="form-control" placeholder="Your Email" required />
+    </div>
 
-                  <div class="col-12">
-                    <input type="text" class="form-control" name="subject" placeholder="Subject" required />
-                  </div>
+    <div class="col-12">
+      <input type="text" id="subject" class="form-control" placeholder="Subject" required />
+    </div>
 
-                  <div class="col-12">
-                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
-                  </div>
+    <div class="col-12">
+      <textarea id="message" class="form-control" rows="6" placeholder="Message" required></textarea>
+    </div>
 
-                  <div class="col-12 text-center">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">
-                      Your message has been sent. Thank you!
-                    </div>
+    <div class="col-12 text-center">
+      <div class="loading">Loading</div>
+      <div class="error-message"></div>
+      <div class="sent-message">Your message has been sent. Thank you!</div>
 
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                  </div>
-                </div>
-              </form>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </div>
+  </div>
+</form>
+
             </div>
           </div>
         </div>
@@ -1310,6 +1308,23 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script>
+  document.getElementById("gmailRedirectForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const name = encodeURIComponent(document.getElementById("name").value);
+    const email = encodeURIComponent(document.getElementById("email").value);
+    const subject = encodeURIComponent(document.getElementById("subject").value);
+    const message = encodeURIComponent(document.getElementById("message").value);
+
+    const body = `Name: ${name}%0AEmail: ${email}%0AMessage:%0A${message}`;
+
+    const gmailURL = `https://mail.google.com/mail/?view=cm&fs=1&to=khokanaithub@gmail.com&su=${subject}&body=${body}`;
+
+    window.open(gmailURL, "_blank");
+  });
+</script>
+
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
